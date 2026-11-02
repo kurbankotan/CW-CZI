@@ -1,0 +1,24 @@
+{
+  "python": "3.13.15",
+  "platform": "Linux-6.6.122+-x86_64-with-glibc2.35",
+  "processor": "x86_64",
+  "cpu_count": 2,
+  "numpy": "2.1.3",
+  "scipy": "1.16.3",
+  "sklearn": "1.6.1",
+  "pandas": "2.2.3",
+  "note": "v6: Protokol A'n\u0131n CW-CZI (A) s\u00fctunu (_select d\u00fczeltmesi) ve Protokol B (kategorik \u00f6n i\u015fleme art\u0131k yaln\u0131zca e\u011fitim sat\u0131rlar\u0131ndan) yeniden ko\u015fuldu; di\u011fer dokuz y\u00f6ntemin Protokol A sonu\u00e7lar\u0131 ile Protokol C ve D v4/v5 ko\u015fusundan devral\u0131nd\u0131.",
+  "repeats": 5,
+  "mask_rates": [
+    0.1,
+    0.2,
+    0.3,
+    0.4
+  ],
+  "mechanisms": [
+    "MCAR",
+    "MAR",
+    "MNAR"
+  ],
+  "seed": 42
+}

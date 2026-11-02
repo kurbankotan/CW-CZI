@@ -1,0 +1,10 @@
+# Exact versions used for the run committed in results/ (see the environment_*.json
+# files under results/raw/, written by run_benchmark.py on every machine that took
+# part). Install these to reproduce the article's numbers; requirements.txt gives
+# the looser ranges the code runs under. Python 3.11-3.13.
+numpy==2.1.3
+scipy==1.16.3
+scikit-learn==1.6.1
+pandas==2.2.3
+matplotlib==3.10.0
+pyarrow==18.1.0         # tests only (pandas 2 puts its str dtype on pyarrow)

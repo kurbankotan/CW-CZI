@@ -1,0 +1,47 @@
+cff-version: 1.2.0
+title: Correlation-Weighted Cyclical Z-Score Imputation (CW-CZI)
+message: If you use this software or its benchmark, please cite the article below.
+type: software
+authors:
+  - family-names: Kotan
+    given-names: Kurban
+    orcid: https://orcid.org/0000-0002-6660-0565
+    affiliation: Manisa Celal Bayar University
+    email: kurban.kotan@cbu.edu.tr
+abstract: >-
+  CW-CZI is a model-free imputer for numerical tabular data. It fills each
+  missing cell from a correlation-weighted combination of the standardised
+  values observed in the same row and refreshes the column moments and the
+  correlation matrix once per cycle. The repository holds the estimator, the
+  benchmark behind the accompanying article (eleven datasets; MCAR, MAR and
+  MNAR), its raw output, and the scripts that turn that output into every
+  table and figure of the article.
+repository-code: https://github.com/kurbankotan/CW-CZI
+license: MIT
+version: "7.0"
+date-released: 2026-11-02
+keywords:
+  - missing data
+  - imputation
+  - tabular data
+  - correlation weighting
+  - z-score
+  - model-free estimation
+  - MCAR
+  - MAR
+  - MNAR
+  - benchmark
+preferred-citation:
+  type: article
+  title: Correlation-Weighted Cyclical Z-Score Imputation
+  authors:
+    - family-names: Kotan
+      given-names: Kurban
+      orcid: https://orcid.org/0000-0002-6660-0565
+      affiliation: Manisa Celal Bayar University
+  journal: Düzce University Journal of Science and Technology
+  issn: "2148-2446"
+  status: in-press
+  notes: >-
+    Accepted on 2 November 2026; volume, issue, pages and DOI will be added
+    on publication.

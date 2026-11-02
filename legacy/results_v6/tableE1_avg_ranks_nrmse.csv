@@ -1,0 +1,11 @@
+method,avg_rank
+EM,2.894
+CW-CZI (R),2.967
+CW-CZI (A),3.161
+MissForest,3.883
+MICE,5.139
+CW-CZI (M),5.222
+KNN,6.689
+CW-CZI (U),8.283
+Mean,8.361
+SVD,8.4

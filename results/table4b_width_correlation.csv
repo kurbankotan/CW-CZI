@@ -1,0 +1,10 @@
+mechanism,predictor,spearman_rho,p,n
+MCAR,p,0.654545,0.028865,11
+MCAR,redundancy,0.890909,0.000233,11
+MCAR,n_over_p,-0.4,0.222868,11
+MAR,p,0.372727,0.258926,11
+MAR,redundancy,0.690909,0.018565,11
+MAR,n_over_p,-0.045455,0.894427,11
+MNAR,p,0.709091,0.014552,11
+MNAR,redundancy,0.936364,2.2e-05,11
+MNAR,n_over_p,-0.445455,0.169733,11

@@ -1,0 +1,118 @@
+mechanism,metric,method,block_avg_rank,mean
+MCAR,nrmse_pre,Mean,12.154545,1.001368
+MCAR,nrmse_pre,CW-CZI (U),11.959091,0.950636
+MCAR,nrmse_pre,CW-CZI (M),9.531818,0.76101
+MCAR,nrmse_pre,CW-CZI (R),3.670455,0.570409
+MCAR,nrmse_pre,CW-CZI (A),2.347727,0.554769
+MCAR,nrmse_pre,KNN,7.920455,0.666557
+MCAR,nrmse_pre,KNN-T,6.143182,0.641926
+MCAR,nrmse_pre,SVD,10.302273,0.853162
+MCAR,nrmse_pre,SVD-T,8.006818,0.66636
+MCAR,nrmse_pre,EM,3.536364,0.576448
+MCAR,nrmse_pre,Iterative-BR,6.195455,0.622539
+MCAR,nrmse_pre,Iterative-T,4.709091,0.586598
+MCAR,nrmse_pre,Iterative-RF,4.522727,0.581071
+MCAR,nrmse_post,Mean,12.186364,1.026462
+MCAR,nrmse_post,CW-CZI (U),11.963636,0.97436
+MCAR,nrmse_post,CW-CZI (M),9.504545,0.784027
+MCAR,nrmse_post,CW-CZI (R),3.670455,0.593409
+MCAR,nrmse_post,CW-CZI (A),2.375,0.57823
+MCAR,nrmse_post,KNN,7.970455,0.692607
+MCAR,nrmse_post,KNN-T,6.256818,0.669102
+MCAR,nrmse_post,SVD,10.270455,0.87406
+MCAR,nrmse_post,SVD-T,7.961364,0.689003
+MCAR,nrmse_post,EM,3.486364,0.598057
+MCAR,nrmse_post,Iterative-BR,6.109091,0.642747
+MCAR,nrmse_post,Iterative-T,4.727273,0.611481
+MCAR,nrmse_post,Iterative-RF,4.518182,0.604892
+MCAR,nrmse_col,Mean,12.2,0.991989
+MCAR,nrmse_col,CW-CZI (U),11.968182,0.933927
+MCAR,nrmse_col,CW-CZI (M),9.65,0.742659
+MCAR,nrmse_col,CW-CZI (R),3.679545,0.545192
+MCAR,nrmse_col,CW-CZI (A),2.479545,0.529476
+MCAR,nrmse_col,KNN,7.965909,0.64296
+MCAR,nrmse_col,KNN-T,6.243182,0.618125
+MCAR,nrmse_col,SVD,10.184091,0.796343
+MCAR,nrmse_col,SVD-T,8.038636,0.641277
+MCAR,nrmse_col,EM,3.459091,0.547145
+MCAR,nrmse_col,Iterative-BR,6.086364,0.591847
+MCAR,nrmse_col,Iterative-T,4.677273,0.558964
+MCAR,nrmse_col,Iterative-RF,4.368182,0.552672
+MAR,nrmse_pre,Mean,11.645455,1.188803
+MAR,nrmse_pre,CW-CZI (U),11.640909,1.160596
+MAR,nrmse_pre,CW-CZI (M),9.422727,0.972836
+MAR,nrmse_pre,CW-CZI (R),4.009091,0.716906
+MAR,nrmse_pre,CW-CZI (A),3.418182,0.708471
+MAR,nrmse_pre,KNN,6.788636,0.814951
+MAR,nrmse_pre,KNN-T,6.025,0.799614
+MAR,nrmse_pre,SVD,10.559091,1.18069
+MAR,nrmse_pre,SVD-T,9.281818,0.964783
+MAR,nrmse_pre,EM,4.145455,0.711651
+MAR,nrmse_pre,Iterative-BR,5.288636,0.76732
+MAR,nrmse_pre,Iterative-T,3.729545,0.698058
+MAR,nrmse_pre,Iterative-RF,5.045455,0.744576
+MAR,nrmse_post,Mean,11.822727,1.397937
+MAR,nrmse_post,CW-CZI (U),11.668182,1.332785
+MAR,nrmse_post,CW-CZI (M),9.336364,1.114962
+MAR,nrmse_post,CW-CZI (R),4.390909,0.861107
+MAR,nrmse_post,CW-CZI (A),3.895455,0.852845
+MAR,nrmse_post,KNN,6.902273,0.968443
+MAR,nrmse_post,KNN-T,6.343182,0.956603
+MAR,nrmse_post,SVD,10.386364,1.323965
+MAR,nrmse_post,SVD-T,9.181818,1.124537
+MAR,nrmse_post,EM,3.877273,0.81735
+MAR,nrmse_post,Iterative-BR,4.838636,0.855938
+MAR,nrmse_post,Iterative-T,3.461364,0.800093
+MAR,nrmse_post,Iterative-RF,4.895455,0.863213
+MAR,nrmse_col,Mean,11.75,1.155934
+MAR,nrmse_col,CW-CZI (U),11.754545,1.12374
+MAR,nrmse_col,CW-CZI (M),9.568182,0.927035
+MAR,nrmse_col,CW-CZI (R),4.027273,0.67607
+MAR,nrmse_col,CW-CZI (A),3.545455,0.668266
+MAR,nrmse_col,KNN,6.825,0.774632
+MAR,nrmse_col,KNN-T,5.970455,0.759282
+MAR,nrmse_col,SVD,10.504545,1.080004
+MAR,nrmse_col,SVD-T,9.290909,0.896026
+MAR,nrmse_col,EM,4.2,0.667675
+MAR,nrmse_col,Iterative-BR,5.102273,0.709667
+MAR,nrmse_col,Iterative-T,3.620455,0.654397
+MAR,nrmse_col,Iterative-RF,4.840909,0.691923
+MNAR,nrmse_pre,Mean,11.634091,1.864467
+MNAR,nrmse_pre,CW-CZI (U),11.922727,1.856353
+MNAR,nrmse_pre,CW-CZI (M),8.836364,1.713305
+MNAR,nrmse_pre,CW-CZI (R),4.584091,1.472984
+MNAR,nrmse_pre,CW-CZI (A),5.006818,1.456155
+MNAR,nrmse_pre,KNN,8.372727,1.607484
+MNAR,nrmse_pre,KNN-T,8.368182,1.607874
+MNAR,nrmse_pre,SVD,7.984091,1.599412
+MNAR,nrmse_pre,SVD-T,7.890909,1.582423
+MNAR,nrmse_pre,EM,2.745455,1.403092
+MNAR,nrmse_pre,Iterative-BR,4.765909,1.496023
+MNAR,nrmse_pre,Iterative-T,5.638636,1.513905
+MNAR,nrmse_pre,Iterative-RF,3.25,1.412436
+MNAR,nrmse_post,Mean,11.538636,4.128502
+MNAR,nrmse_post,CW-CZI (U),11.731818,4.123519
+MNAR,nrmse_post,CW-CZI (M),8.831818,3.929939
+MNAR,nrmse_post,CW-CZI (R),4.738636,3.609364
+MNAR,nrmse_post,CW-CZI (A),5.265909,3.583572
+MNAR,nrmse_post,KNN,8.427273,3.803214
+MNAR,nrmse_post,KNN-T,8.581818,3.811822
+MNAR,nrmse_post,SVD,7.534091,3.752224
+MNAR,nrmse_post,SVD-T,7.527273,3.744744
+MNAR,nrmse_post,EM,2.972727,3.494343
+MNAR,nrmse_post,Iterative-BR,4.770455,3.634552
+MNAR,nrmse_post,Iterative-T,5.865909,3.665143
+MNAR,nrmse_post,Iterative-RF,3.213636,3.497572
+MNAR,nrmse_col,Mean,11.993182,1.842019
+MNAR,nrmse_col,CW-CZI (U),11.845455,1.809458
+MNAR,nrmse_col,CW-CZI (M),8.840909,1.654337
+MNAR,nrmse_col,CW-CZI (R),4.534091,1.407383
+MNAR,nrmse_col,CW-CZI (A),4.879545,1.391194
+MNAR,nrmse_col,KNN,8.390909,1.555128
+MNAR,nrmse_col,KNN-T,8.395455,1.555112
+MNAR,nrmse_col,SVD,7.893182,1.539727
+MNAR,nrmse_col,SVD-T,7.913636,1.525165
+MNAR,nrmse_col,EM,2.595455,1.332381
+MNAR,nrmse_col,Iterative-BR,4.811364,1.432909
+MNAR,nrmse_col,Iterative-T,5.725,1.457478
+MNAR,nrmse_col,Iterative-RF,3.181818,1.338557

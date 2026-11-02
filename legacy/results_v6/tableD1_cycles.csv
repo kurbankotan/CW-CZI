@@ -1,0 +1,4 @@
+dataset,marginal,ridge,uniform
+CKD,34,40,32
+Heart,23,40,19
+Mice,40,40,28

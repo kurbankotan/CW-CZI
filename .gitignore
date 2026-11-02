@@ -1,0 +1,17 @@
+# experiment output — results/ is committed on purpose (the run reported
+# in the article); a local re-run overwrites it, so check `git diff` before
+# committing anything it produces.
+*.zip
+
+# python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+.pytest_cache/
+.venv/
+venv/
+
+# editors and OS
+.vscode/
+.idea/
+.DS_Store

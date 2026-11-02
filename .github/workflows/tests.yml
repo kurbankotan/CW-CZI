@@ -1,0 +1,54 @@
+name: tests
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        python-version: ['3.11', '3.12', '3.13']
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: ${{ matrix.python-version }}
+      - name: Install
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt pytest
+      - name: Estimator, masks, metric, baselines and loader
+        run: pytest tests -q
+      - name: Smoke-run every protocol on a small slice, in a scratch directory
+        run: |
+          OUT=$(mktemp -d)
+          python run_benchmark.py A --datasets Heart --rates 0.3 --reps 0 --workers 2 --out $OUT \
+            --methods "Mean,CW-CZI (R),CW-CZI (A),KNN-T,EM,Iterative-BR"
+          python run_benchmark.py B --datasets Heart --reps 0 --workers 2 --out $OUT \
+            --methods "Mean,CW-CZI (R),EM"
+          python run_benchmark.py D --datasets Heart --mechanisms MCAR --reps 0 --workers 2 --out $OUT
+          test -s $OUT/A/Heart__cw_czi_r.csv && test -s $OUT/B/Heart__em.csv \
+            && test -s $OUT/D/sensitivity__Heart.csv
+
+  results:
+    # The article's numbers come from the pinned versions, not the loose ranges.
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: '3.13'
+      - name: Install the pinned versions
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements-lock.txt pytest
+      - run: pytest tests -q
+      - name: Every derived table and number in results/ follows from the raw records
+        run: python check_results.py results
+      - name: The first submission's results still follow from its raw files
+        run: python legacy/check_results.py legacy/results_v6

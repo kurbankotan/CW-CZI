@@ -1,0 +1,6 @@
+{
+ "description": "Iterative-RF blocks of Protocol A run on both machines (the local machine and Google Colab); NRMSE compared block by block before the local copy was kept.",
+ "blocks_shared": 124,
+ "by_dataset": {"CKD": 10, "Ionosphere": 10, "Satimage": 60, "WDBC": 44},
+ "max_abs_difference_nrmse": 0.0
+}

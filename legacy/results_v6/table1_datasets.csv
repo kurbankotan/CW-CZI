@@ -1,0 +1,4 @@
+Dataset,Target,Instances,Numeric,Categorical,Classes,Missing_cells_pct,Missing_cols,Incomplete_rows_pct
+CKD,classification,400,14,10,2,13.89,14,49.2
+Heart,num,303,10,3,2,0.2,2,2.0
+Mice,class,600,77,3,8,1.65,49,48.8

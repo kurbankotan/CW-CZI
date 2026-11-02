@@ -1,0 +1,12 @@
+method,exp_n,exp_p
+Mean,0.2,0.306
+CW-CZI (U),0.9,0.389
+CW-CZI (M),0.855,0.393
+CW-CZI (R),0.886,0.829
+CW-CZI (A),0.905,0.629
+KNN,1.524,0.728
+SVD,0.803,1.389
+EM,0.818,1.005
+Iterative-BR,0.205,1.325
+Iterative-RF,1.046,1.841
+CW-CZI (R30),0.677,1.037

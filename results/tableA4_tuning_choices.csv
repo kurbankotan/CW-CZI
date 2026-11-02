@@ -1,0 +1,35 @@
+method,choice,n
+CW-CZI (A),ridge/lam=0.01/T=5,175
+CW-CZI (A),ridge/lam=0.3/T=5,139
+CW-CZI (A),ridge/lam=0.1/T=5,92
+CW-CZI (A),ridge/lam=0.03/T=5,76
+CW-CZI (A),ridge/lam=0.3/T=2,73
+CW-CZI (A),ridge/lam=1/T=5,42
+CW-CZI (A),ridge/lam=0.01/T=2,30
+CW-CZI (A),ridge/lam=0.1/T=2,20
+CW-CZI (A),ridge/lam=0.03/T=2,9
+CW-CZI (A),ridge/lam=0.01/T=1,1
+CW-CZI (A),ridge/lam=0.03/T=1,1
+CW-CZI (A),ridge/lam=1/T=1,1
+CW-CZI (A),ridge/lam=1/T=2,1
+Iterative-T,BayesianRidge,348
+Iterative-T,KNN-15,269
+Iterative-T,Nystroem-Ridge,43
+KNN-T,"k=40,uniform",176
+KNN-T,"k=3,distance",107
+KNN-T,"k=10,distance",102
+KNN-T,"k=10,uniform",96
+KNN-T,"k=5,distance",92
+KNN-T,"k=20,uniform",64
+KNN-T,"k=20,distance",13
+KNN-T,"k=5,uniform",10
+SVD-T,rank=1,133
+SVD-T,rank=8,120
+SVD-T,rank=3,93
+SVD-T,rank=5,88
+SVD-T,rank=12,66
+SVD-T,rank=20,60
+SVD-T,rank=2,56
+SVD-T,rank=10,29
+SVD-T,rank=13,8
+SVD-T,rank=9,7

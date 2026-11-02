@@ -1,0 +1,5 @@
+dataset,accuracy_spread,nrmse_spread,ratio
+CKD,0.0109,0.5211,47.6
+Heart,0.0148,0.6266,42.5
+Mice,0.0008,0.7951,954.1
+MEAN,0.0088,0.6476,73.2

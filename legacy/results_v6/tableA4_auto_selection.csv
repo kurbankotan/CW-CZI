@@ -1,0 +1,4 @@
+dataset,chosen_rule,n,lam,iters
+CKD,ridge,60,0.3,5.0
+Heart,ridge,60,0.3,3.5
+Mice,ridge,60,0.1,5.0

@@ -1,0 +1,4 @@
+Dataset,chi2,dof,p,MCAR_rejected
+CKD,95.8,1,1.2824244777460426e-22,True
+Heart,0.0,1,0.8345033458350111,False
+Mice,34.2,7,1.6070890134255937e-05,True

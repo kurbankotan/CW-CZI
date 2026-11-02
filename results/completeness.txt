@@ -1,0 +1,2 @@
+Protocol A: 143 of 143 (dataset, method) cells complete (60 records each)
+Protocol B: 143 of 143 (dataset, method) cells complete (40 records each)
